@@ -13,17 +13,55 @@
   <a href="blog.html">Writing</a>
 </nav>
 
-<h1>Projects</h1>
+<h1>Projects (ML Systems Focus)</h1>
 
 <section>
+  <p>
+    My projects emphasize system-level challenges in modern machine learning,
+    memory movement, parallelism, communication overhead, and lifecycle control,
+    rather than isolated model performance.
+  </p>
+
   <ul>
-    <li><strong>Agentic RAG Platform</strong> — Multi-agent planning, reflection, and execution pipelines for enterprise analytics.</li>
-    <li><strong>LLM Inference Optimization</strong> — KV-cache management, memory-aware batching, and low-latency serving.</li>
-    <li><strong>CUDA Quantization Kernels</strong> — Custom GPU kernels for efficient gradient compression.</li>
-    <li><strong>HPC Distributed Training Pipelines</strong> — Cluster-scale training with optimized memory & communication.</li>
-    <li><strong>Healthcare AI Systems</strong> — Secure RAG pipelines with domain-specific reasoning.</li>
+    <li>
+      <strong>GPU-Optimized LLM Inference Systems</strong><br/>
+      Designed and analyzed inference pipelines focusing on KV-cache management,
+      memory-aware batching, attention optimization, and latency–throughput trade-offs.
+      Explored how inference bottlenecks shift from compute to memory bandwidth
+      as model and context sizes scale.
+    </li>
+
+    <li>
+      <strong>Federated Learning Systems with Communication Compression</strong><br/>
+      Built FL pipelines integrating gradient compression, quantization,
+      and sparsity techniques to reduce communication overhead.
+      Focused on system-level trade-offs between accuracy, bandwidth,
+      synchronization cost, and GPU utilization.
+    </li>
+
+    <li>
+      <strong>LLM Unlearning Frameworks</strong><br/>
+      Research and prototyping of machine unlearning techniques for large models,
+      addressing selective forgetting, regulatory compliance, and
+      system-level guarantees without full retraining.
+    </li>
+
+    <li>
+      <strong>High-Performance Distributed Training Pipelines</strong><br/>
+      Designed multi-GPU and multi-node training workflows with attention to
+      data parallelism, model parallelism, memory hierarchy, and interconnect efficiency.
+      Benchmarked scaling behavior and failure modes in HPC-style environments.
+    </li>
+
+    <li>
+      <strong>Agentic ML Systems & RAG Architectures</strong><br/>
+      Built multi-agent systems with planning, reflection, and tool execution,
+      emphasizing system orchestration, context management,
+      and failure-aware execution loops rather than prompt engineering alone.
+    </li>
   </ul>
 </section>
+
 
 </body>
 </html>
